@@ -7,6 +7,23 @@ Our boilerplate theme to create stores in the VTEX IO platform.
 ## Preview
 ![store-theme-default](https://user-images.githubusercontent.com/1354492/63937047-e8d81c80-ca37-11e9-86fc-61e88847bbfb.png)
 
+## Features
+
+### Delivery Promises & Regionalization
+This theme includes enhanced delivery promise functionality and regionalization features to provide customers with accurate shipping information based on their location.
+
+**Key components:**
+- **Shipping Option Components (`vtex.shipping-option-components`)**: Provides comprehensive shipping option display and selection interface with delivery promise integration
+- **Shipping Option Location Selector**: Allows customers to input their location (ZIP code, address) to see accurate delivery estimates and shipping costs
+- **Delivery Promise Display**: Shows estimated delivery dates, shipping methods, and costs based on customer's selected location
+- **Enhanced Regional Experience**: Improved user experience with location-aware content and shipping options
+
+These features help improve customer experience by:
+- Providing transparent shipping information upfront
+- Reducing cart abandonment through clear delivery expectations
+- Enabling location-based shopping decisions
+- Supporting regionalized content and pricing
+
 ## Tutorial
 To understand how things work check our tutorial [Build a store using VTEX IO](https://vtex.io/docs/getting-started/build-stores-with-store-framework/1/)
 
@@ -34,11 +51,11 @@ Store GraphQL is a middleware to access all VTEX APIs.
 - [Search Result](https://github.com/vtex-apps/search-result/blob/master/docs/README.md)
 - [Product Details](https://github.com/vtex-apps/product-details/blob/master/docs/README.md)
 - [Store Components](https://github.com/vtex-apps/store-components/blob/master/docs/README.md)
-- [Order Placed](https://github.com/vtex-apps/order-placed/blob/master/docs/README.md) 
+- [Order Placed](https://github.com/vtex-apps/order-placed/blob/master/docs/README.md)
+- [Shipping Option Components](https://github.com/vtex-apps/shipping-option-components/blob/master/docs/README.md) 
 
 ### Store Pixel Apps
 
- - [Facebook Pixel](https://github.com/vtex-apps/facebook-pixel/blob/master/docs/README.md)
  - [Google Tag Manager](https://github.com/vtex-apps/google-tag-manager/blob/master/docs/README.md)
 
 ## Contributing
