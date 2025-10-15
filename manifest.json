@@ -1,11 +1,10 @@
 {
   "vendor": "vtex",
-  "name": "store-theme",
-  "version": "5.1.0",
+  "name": "regionalization-theme",
+  "version": "0.0.0",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
-    "sitemap": "0.x",
     "docs": "0.x"
   },
   "mustUpdateAt": "2018-09-05",
@@ -20,12 +19,11 @@
     "vtex.store-components": "3.x",
     "vtex.styleguide": "9.x",
     "vtex.slider": "0.x",
-    "vtex.carousel": "2.x",
     "vtex.shelf": "1.x",
     "vtex.menu": "2.x",
     "vtex.minicart": "2.x",
     "vtex.product-details": "1.x",
-    "vtex.product-kit": "1.x",
+    "vtex.search": "2.x",
     "vtex.search-result": "3.x",
     "vtex.login": "2.x",
     "vtex.my-account": "1.x",
@@ -40,13 +38,11 @@
     "vtex.product-customizer": "2.x",
     "vtex.stack-layout": "0.x",
     "vtex.product-specification-badges": "0.x",
-    "vtex.product-review-interfaces": "1.x",
     "vtex.telemarketing": "2.x",
     "vtex.order-placed": "2.x",
     "vtex.checkout-summary": "0.x",
     "vtex.product-list": "0.x",
     "vtex.add-to-cart-button": "0.x",
-    "vtex.product-bookmark-interfaces": "1.x",
     "vtex.responsive-layout": "0.x",
     "vtex.slider-layout": "0.x",
     "vtex.store-image": "0.x",
@@ -62,10 +58,7 @@
     "vtex.product-specifications": "1.x",
     "vtex.tab-layout": "0.x",
     "vtex.condition-layout": "2.x",
-    "vtex.css-handles": "1.x"
-  },
-  "peerDependencies": {
-    "vtex.reviews-and-ratings": "3.x"
+    "vtex.shipping-option-components": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
