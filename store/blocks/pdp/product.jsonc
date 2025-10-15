@@ -6,9 +6,7 @@
       "flex-layout.row#description",
       "flex-layout.row#specifications-title",
       "product-specification-group#table",
-      "shelf.relatedProducts",
-      "product-reviews",
-      "product-questions-and-answers"
+      "shelf.relatedProducts"      
     ]
   },
   "flex-layout.row#specifications-title": {
@@ -59,8 +57,7 @@
       "blockClass": "product"
     },
     "children": [
-      "flex-layout.row#product-image",
-      "product-bookmark",
+      "flex-layout.row#product-image",      
       "product-specification-badges"
     ]
   },
@@ -99,8 +96,7 @@
       "rowGap": 0
     },
     "children": [
-      "flex-layout.row#product-name",
-      "product-rating-summary",
+      "flex-layout.row#product-name",      
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
       "product-installments",

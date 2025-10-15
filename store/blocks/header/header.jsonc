@@ -59,10 +59,28 @@
       "flex-layout.col#category-menu",
       "flex-layout.col#spacer",
       "search-bar",
+      "shipping-option-location-selector",
       "locale-switcher",
       "login",
       "minicart.v2"
     ]
+  },
+  "shipping-option-location-selector": {
+    "props": {
+      "showLocationDetectorButton": true
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "autocompleteWidth": 60
+    }
+  },
+  "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true
+    }
   },
   "flex-layout.col#logo-desktop": {
     "props": {
