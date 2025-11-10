@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Changed
+
+- `hideunavailableitems` as default true
+
 
 ## [0.0.1] - 2025-10-15
 

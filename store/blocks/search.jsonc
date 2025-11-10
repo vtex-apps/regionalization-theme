@@ -4,6 +4,7 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
+        "hideUnavailableItems": true,        
         "simulationBehavior": "default"
       }
     }
@@ -27,6 +28,7 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
+        "hideUnavailableItems": true,
         "simulationBehavior": "default"
       }
     }
@@ -37,6 +39,7 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
+        "hideUnavailableItems": true,
         "simulationBehavior": "default"
       }
     }
@@ -47,6 +50,7 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
+        "hideUnavailableItems": true,
         "simulationBehavior": "default"
       }
     }
