@@ -15,7 +15,7 @@ Our boilerplate theme to create stores in the VTEX IO platform.
 
 ### Delivery Promise
 
-This theme includes the Delivery Promise feature to provide customers with accurate delivery and pickup availability information based on their location.
+This theme includes the [Delivery Promise](https://help.vtex.com/pt/docs/tutorials/delivery-promise-beta) feature to provide customers with accurate delivery and pickup availability information based on their location.
 
 **Key functionalities:**
 
@@ -24,10 +24,10 @@ This theme includes the Delivery Promise feature to provide customers with accur
 	* **Header:** Provides a global toggle (for example, to choose between Delivery or Pickup) that applies the chosen delivery method across the entire browsing session.
 	* **Sidebar:** Adds PLP and search filters so shoppers can refine results on that page by delivery method (Delivery, Pickup, Pickup nearby, or pickup at a specific point).
 * **Filtering by pickup point:** Scopes navigation to products that can be picked up at a chosen store or pickup location.
-	* **Header:** Offers a global Filter by store/pickup point control so shoppers can select a specific store and see only products available there across the site.
+	* **Header:** Offers a global Filter by store/pickup point control so shoppers can select a specific store and see only products available for pickup there across the site.
 	* **Sidebar:** Displays a list of eligible pickup points for the current search or PLP, allowing shoppers to refine results to one particular location.
-* **Filtering by Delivery Option:** Enables filters for specific Delivery Options and SLAs, so shoppers see only products that can be delivered under the selected delivery time option.
-* **Filtering by Dynamic Estimate:** Allows shoppers to filter products by time-sensitive promises (such as "Receive today" or "Receive tomorrow"), using dynamically calculated delivery or pickup estimates for their location.
+* **Filtering by Delivery Option:** Enables filters for specific [Delivery Options](https://help.vtex.com/docs/tutorials/delivery-options-beta) and SLAs, so shoppers see only products that can be delivered under the selected delivery time option.
+* **Filtering by Dynamic Estimate:** Allows shoppers to filter products by time-sensitive promises (such as "Receive today" or "Receive tomorrow"), using dynamically calculated delivery or pickup estimates for their location. These filters rely on dynamic estimates that are displayed only when an active Delivery Option (configured by the merchant) can realistically fulfill the order during the store's operating hours.
 
 ## Tutorial
 
