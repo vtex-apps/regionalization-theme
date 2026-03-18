@@ -15,7 +15,7 @@ Our boilerplate theme to create stores in the VTEX IO platform.
 
 ### Delivery Promise
 
-This theme includes the [Delivery Promise](https://help.vtex.com/pt/docs/tutorials/delivery-promise-beta) feature to provide customers with accurate delivery and pickup availability information based on their location.
+This theme includes the [Delivery Promise](https://help.vtex.com/docs/tutorials/delivery-promise-beta) feature, which provides customers with accurate delivery and pickup availability information based on their location.
 
 **Key functionalities:**
 
@@ -31,13 +31,13 @@ This theme includes the [Delivery Promise](https://help.vtex.com/pt/docs/tutoria
 
 ## Tutorial
 
-To understand how things work, check our tutorial [Build a store using VTEX IO](https://vtex.io/docs/getting-started/build-stores-with-store-framework/1/)
+To understand how things work, check our [Store Framework](https://developers.vtex.com/docs/guides/store-framework) documentation. 
 
 ## Dependencies
-All store components that you see in this document are open source too. Production ready, you can found those apps in this GitHub organization.
+All store components that you see in this document are open source too. Production-ready, you can find those apps in this GitHub organization.
 
-Store framework is the baseline to create any store using _VTEX IO Web Framework_.
-* [Store](https://github.com/vtex-apps/store/blob/master/README.md)
+Store Framework is the baseline for creating any store using _VTEX IO Web Framework_.
+* [Store](https://developers.vtex.com/docs/apps/vtex.store)
 
 Store GraphQL is a middleware to access all VTEX APIs.
 * [Store GraphQL](https://github.com/vtex-apps/store-graphql/blob/master/docs/README.md)
@@ -66,11 +66,11 @@ Store GraphQL is a middleware to access all VTEX APIs.
 
 ## Contributing
 
-Check it out [how to contribute](https://github.com/vtex-apps/awesome-io#contributing) with this project.
+Check it out [how to contribute](https://github.com/vtex-apps/store-discussion#vtex-io-community-for-store-developers) with this project.
 
 ## Contributors ✨
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Thanks goes to these wonderful people:
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
