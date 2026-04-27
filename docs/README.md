@@ -2,69 +2,75 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-Our boilerplate theme to create stores in the VTEX IO platform.
+
+[<i class="fa-brands fa-github"></i> Source code](https://github.com/vtex-apps/regionalization-theme)
+
+Our boilerplate theme for creating stores on the VTEX IO platform.
 
 ## Preview
+
 ![store-theme-default](https://user-images.githubusercontent.com/1354492/63937047-e8d81c80-ca37-11e9-86fc-61e88847bbfb.png)
 
 ## Features
 
-### Delivery Promises & Regionalization
-This theme includes enhanced delivery promise functionality and regionalization features to provide customers with accurate shipping information based on their location.
+### Delivery Promise
 
-**Key components:**
-- **Shipping Option Components (`vtex.shipping-option-components`)**: Provides comprehensive shipping option display and selection interface with delivery promise integration
-- **Shipping Option Location Selector**: Allows customers to input their location (ZIP code, address) to see accurate delivery estimates and shipping costs
-- **Delivery Promise Display**: Shows estimated delivery dates, shipping methods, and costs based on customer's selected location
-- **Enhanced Regional Experience**: Improved user experience with location-aware content and shipping options
+This theme includes the [Delivery Promise](https://help.vtex.com/docs/tutorials/delivery-promise-beta) feature, which provides customers with accurate delivery and pickup availability information based on their location.
 
-These features help improve customer experience by:
-- Providing transparent shipping information upfront
-- Reducing cart abandonment through clear delivery expectations
-- Enabling location-based shopping decisions
-- Supporting regionalized content and pricing
+**Key functionalities:**
+
+* **Capturing the shopper's location:** Allows the store to obtain the shopper's location, either automatically via browser geolocation or manually via postal code/address, so product availability and delivery or pickup options are calculated specifically for that location.
+* **Filtering by delivery method:** Allows shoppers to filter product listings to items available for delivery or pickup based on their selected address and logistics information.
+	* **Header:** Provides a global toggle (for example, to choose between Delivery or Pickup) that applies the chosen delivery method across the entire browsing session.
+	* **Sidebar:** Adds filters to PLP and search pages so shoppers can refine results by delivery method (delivery, pickup, nearby pickup, or pickup point).
+* **Filtering by pickup point:** Limits results to products available for pickup at the selected store or location.
+	* **Header:** Offers a global filter by store/pickup point control so shoppers can select a specific store and see only products available for pickup there across the site.
+	* **Sidebar:** Displays a list of eligible pickup points for the current search or PLP, allowing shoppers to refine results to a specific location.
+* **Filtering by Delivery Option:** Enables filters for specific [Delivery Options](https://help.vtex.com/docs/tutorials/delivery-options-beta) and SLAs, so shoppers see only products that can be delivered within the selected delivery time.
+* **Filtering by Dynamic Estimate:** Allows shoppers to filter products by time-sensitive promises (such as "Receive today" or "Receive tomorrow"), using dynamically calculated delivery or pickup estimates for their location. These filters rely on dynamic estimates that are displayed only when an active Delivery Option (configured by the merchant) can realistically fulfill the order during the store business hours.
 
 ## Tutorial
-To understand how things work check our tutorial [Build a store using VTEX IO](https://vtex.io/docs/getting-started/build-stores-with-store-framework/1/)
+
+For more information, see our [Store Framework](https://developers.vtex.com/docs/guides/store-framework) documentation.
 
 ## Dependencies
-All store components that you see on this document are open source too. Production ready, you can found those apps in this GitHub organization.
+All store components shown in this document are also open source. Production-ready, you can find those apps in this GitHub organization.
 
-Store framework is the baseline to create any store using _VTEX IO Web Framework_.
-- [Store](https://github.com/vtex-apps/store/blob/master/README.md)
+Store Framework is the baseline for creating any store using _VTEX IO Web Framework_.
+* [Store](https://developers.vtex.com/docs/apps/vtex.store)
 
 Store GraphQL is a middleware to access all VTEX APIs.
-- [Store GraphQL](https://github.com/vtex-apps/store-graphql/blob/master/docs/README.md)
+* [Store GraphQL](https://github.com/vtex-apps/store-graphql/blob/master/docs/README.md)
 
-### Store Component Apps
-- [Header](https://github.com/vtex-apps/store-header/blob/master/docs/README.md)
-- [Footer](https://github.com/vtex-apps/store-footer/blob/master/docs/README.md)
-- [Slider Layout](https://github.com/vtex-apps/slider-layout/blob/master/docs/README.md)
-- [Shelf](https://github.com/vtex-apps/shelf/blob/master/docs/README.md)
-- [Telemarketing](https://github.com/vtex-apps/telemarketing/blob/master/docs/README.md)
-- [Menu](https://github.com/vtex-apps/menu/blob/master/docs/README.md)
-- [Login](https://github.com/vtex-apps/login/blob/master/docs/README.md)
-- [Minicart](https://github.com/vtex-apps/minicart/blob/master/docs/README.md)
-- [Category Menu](https://github.com/vtex-apps/category-menu/blob/master/docs/README.md)
-- [Product Summary](https://github.com/vtex-apps/product-summary/blob/master/docs/README.md)
-- [Breadcrumb](https://github.com/vtex-apps/breadcrumb/blob/master/docs/README.md)
-- [Search Result](https://github.com/vtex-apps/search-result/blob/master/docs/README.md)
-- [Product Details](https://github.com/vtex-apps/product-details/blob/master/docs/README.md)
-- [Store Components](https://github.com/vtex-apps/store-components/blob/master/docs/README.md)
-- [Order Placed](https://github.com/vtex-apps/order-placed/blob/master/docs/README.md)
-- [Shipping Option Components](https://github.com/vtex-apps/shipping-option-components/blob/master/docs/README.md) 
+### Store Component apps
+* [Header](https://github.com/vtex-apps/store-header/blob/master/docs/README.md)
+* [Footer](https://github.com/vtex-apps/store-footer/blob/master/docs/README.md)
+* [Slider Layout](https://github.com/vtex-apps/slider-layout/blob/master/docs/README.md)
+* [Shelf](https://github.com/vtex-apps/shelf/blob/master/docs/README.md)
+* [Telemarketing](https://github.com/vtex-apps/telemarketing/blob/master/docs/README.md)
+* [Menu](https://github.com/vtex-apps/menu/blob/master/docs/README.md)
+* [Login](https://github.com/vtex-apps/login/blob/master/docs/README.md)
+* [Minicart](https://github.com/vtex-apps/minicart/blob/master/docs/README.md)
+* [Category Menu](https://github.com/vtex-apps/category-menu/blob/master/docs/README.md)
+* [Product Summary](https://github.com/vtex-apps/product-summary/blob/master/docs/README.md)
+* [Breadcrumb](https://github.com/vtex-apps/breadcrumb/blob/master/docs/README.md)
+* [Search Result](https://github.com/vtex-apps/search-result/blob/master/docs/README.md)
+* [Product Details](https://github.com/vtex-apps/product-details/blob/master/docs/README.md)
+* [Store Components](https://github.com/vtex-apps/store-components/blob/master/docs/README.md)
+* [Order Placed](https://github.com/vtex-apps/order-placed/blob/master/docs/README.md)
+* [Shipping Option Components](https://github.com/vtex-apps/shipping-option-components/blob/master/docs/README.md) 
 
-### Store Pixel Apps
+### Store Pixel apps
 
- - [Google Tag Manager](https://github.com/vtex-apps/google-tag-manager/blob/master/docs/README.md)
+ * [Google Tag Manager](https://github.com/vtex-apps/google-tag-manager/blob/master/docs/README.md)
 
 ## Contributing
 
-Check it out [how to contribute](https://github.com/vtex-apps/awesome-io#contributing) with this project.
+Learn [how to contribute](https://github.com/vtex-apps/store-discussion#vtex-io-community-for-store-developers) with this project.
 
 ## Contributors ✨
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Special thanks to these wonderful people:
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -79,4 +85,4 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. All contributions are welcome!
