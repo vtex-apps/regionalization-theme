@@ -5,7 +5,7 @@
 
 [<i class="fa-brands fa-github"></i> Source code](https://github.com/vtex-apps/regionalization-theme)
 
-Our boilerplate theme to create stores in the VTEX IO platform.
+Our boilerplate theme for creating stores on the VTEX IO platform.
 
 ## Preview
 
@@ -20,21 +20,21 @@ This theme includes the [Delivery Promise](https://help.vtex.com/docs/tutorials/
 **Key functionalities:**
 
 * **Capturing the shopper's location:** Allows the store to obtain the shopper's location, either automatically via browser geolocation or manually via postal code/address, so product availability and delivery or pickup options are calculated specifically for that location.
-* **Filtering by delivery method:** Lets shoppers restrict product listings to items available for delivery or pickup, based on their selected address and logistics information.
+* **Filtering by delivery method:** Allows shoppers to filter product listings to items available for delivery or pickup based on their selected address and logistics information.
 	* **Header:** Provides a global toggle (for example, to choose between Delivery or Pickup) that applies the chosen delivery method across the entire browsing session.
-	* **Sidebar:** Adds PLP and search filters so shoppers can refine results on that page by delivery method (Delivery, Pickup, Pickup nearby, or pickup at a specific point).
-* **Filtering by pickup point:** Scopes navigation to products that can be picked up at a chosen store or pickup location.
-	* **Header:** Offers a global Filter by store/pickup point control so shoppers can select a specific store and see only products available for pickup there across the site.
-	* **Sidebar:** Displays a list of eligible pickup points for the current search or PLP, allowing shoppers to refine results to one particular location.
-* **Filtering by Delivery Option:** Enables filters for specific [Delivery Options](https://help.vtex.com/docs/tutorials/delivery-options-beta) and SLAs, so shoppers see only products that can be delivered under the selected delivery time option.
-* **Filtering by Dynamic Estimate:** Allows shoppers to filter products by time-sensitive promises (such as "Receive today" or "Receive tomorrow"), using dynamically calculated delivery or pickup estimates for their location. These filters rely on dynamic estimates that are displayed only when an active Delivery Option (configured by the merchant) can realistically fulfill the order during the store's operating hours.
+	* **Sidebar:** Adds filters to PLP and search pages so shoppers can refine results by delivery method (delivery, pickup, nearby pickup, or pickup point).
+* **Filtering by pickup point:** Limits results to products available for pickup at the selected store or location.
+	* **Header:** Offers a global filter by store/pickup point control so shoppers can select a specific store and see only products available for pickup there across the site.
+	* **Sidebar:** Displays a list of eligible pickup points for the current search or PLP, allowing shoppers to refine results to a specific location.
+* **Filtering by Delivery Option:** Enables filters for specific [Delivery Options](https://help.vtex.com/docs/tutorials/delivery-options-beta) and SLAs, so shoppers see only products that can be delivered within the selected delivery time.
+* **Filtering by Dynamic Estimate:** Allows shoppers to filter products by time-sensitive promises (such as "Receive today" or "Receive tomorrow"), using dynamically calculated delivery or pickup estimates for their location. These filters rely on dynamic estimates that are displayed only when an active Delivery Option (configured by the merchant) can realistically fulfill the order during the store business hours.
 
 ## Tutorial
 
-To understand how things work, check our [Store Framework](https://developers.vtex.com/docs/guides/store-framework) documentation. 
+For more information, see our [Store Framework](https://developers.vtex.com/docs/guides/store-framework) documentation.
 
 ## Dependencies
-All store components that you see in this document are open source too. Production-ready, you can find those apps in this GitHub organization.
+All store components shown in this document are also open source. Production-ready, you can find those apps in this GitHub organization.
 
 Store Framework is the baseline for creating any store using _VTEX IO Web Framework_.
 * [Store](https://developers.vtex.com/docs/apps/vtex.store)
@@ -42,7 +42,7 @@ Store Framework is the baseline for creating any store using _VTEX IO Web Framew
 Store GraphQL is a middleware to access all VTEX APIs.
 * [Store GraphQL](https://github.com/vtex-apps/store-graphql/blob/master/docs/README.md)
 
-### Store Component Apps
+### Store Component apps
 * [Header](https://github.com/vtex-apps/store-header/blob/master/docs/README.md)
 * [Footer](https://github.com/vtex-apps/store-footer/blob/master/docs/README.md)
 * [Slider Layout](https://github.com/vtex-apps/slider-layout/blob/master/docs/README.md)
@@ -60,17 +60,17 @@ Store GraphQL is a middleware to access all VTEX APIs.
 * [Order Placed](https://github.com/vtex-apps/order-placed/blob/master/docs/README.md)
 * [Shipping Option Components](https://github.com/vtex-apps/shipping-option-components/blob/master/docs/README.md) 
 
-### Store Pixel Apps
+### Store Pixel apps
 
  * [Google Tag Manager](https://github.com/vtex-apps/google-tag-manager/blob/master/docs/README.md)
 
 ## Contributing
 
-Check it out [how to contribute](https://github.com/vtex-apps/store-discussion#vtex-io-community-for-store-developers) with this project.
+Learn [how to contribute](https://github.com/vtex-apps/store-discussion#vtex-io-community-for-store-developers) with this project.
 
 ## Contributors ✨
 
-Thanks goes to these wonderful people:
+Special thanks to these wonderful people:
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -85,4 +85,4 @@ Thanks goes to these wonderful people:
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. All contributions are welcome!
